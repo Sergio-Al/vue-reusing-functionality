@@ -22,9 +22,6 @@ export default {
       alertIsVisible: true,
     };
   },
-  mounted() {
-    console.log(this.alertIsVisible);
-  },  
   mixins: [alertMixin],
 };
 </script>
